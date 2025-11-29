@@ -141,37 +141,18 @@ API_dataset :https://github.com/public-apis/public-apis
 
 ## AI Prompt Examples
 
-
 \`\`\`
 
-### Prompt 1: Data Formatting and Structuring with Claude
-
+### Prompt 1: Re-desiging the website
 \`\`\`
-Prompt:
-"I have a list of 20 public APIs with their details. Create a standardized 
-JSON schema that includes: name, description, base URL, authentication type, 
-pricing, category, features, use cases, documentation link, rate limits, 
-and boolean flags for HTTPS  support. Ensure the schema is 
-extensible for future additions. Also provide TypeScript interfaces for 
-type safety."
+Prompt:1
+"Enhance my frontend of the to Add  backend data in the new modern design as per my figma designed template and enhance the flow of the animation and button effects "
 
-Result Used:
-- Standardized apis.json with consistent schema
-- TypeScript ApiEntry interface for type safety
-- Category enum for consistency
-- Validation logic with Zod
+
+### Prompt 2: 
 \`\`\`
-
-### Prompt 2: Search and Filter Feature Implementation and smooth transition using vercel
-
-\`\`\`
-Prompt:
 "Build a search and filter system for an API directory with real-time search across name and description, Category filter dropdown, Pricing filter (free/paid), sort options (A-Z, category, rating), display filtered results count
 
-Result Used:
-- Custom useSearch hook with debouncing
-- Multi-select filtering with Radix UI Select
-- Real-time results update with useMemo
 \`\`\`
 
 
