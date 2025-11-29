@@ -119,20 +119,7 @@ The project includes **20 high-quality, production-grade APIs** across diverse c
 
 ### Data Sources
 
-Each API's information was compiled from official documentation:
-
-1. **Official API Documentation** - Direct from provider docs (preferred)
-   - Stripe, OpenAI, Spotify, GitHub, Twitter, Firebase, etc.
-
-2. **Brandfetch CDN** - Logo/icon assets
-   - `https://cdn.brandfetch.io/` - High-quality brand assets
-
-3. **Direct API Endpoints** - Official icon/image URLs
-   - Official provider favicon and logo endpoints
-
-4. **REST Countries, ExchangeRate-API** - No auth required
-   - Free public APIs used as examples
-
+API_dataset :https://github.com/public-apis/public-apis
 ## Data Generation Process
 
 ### How The Dataset Was Created
