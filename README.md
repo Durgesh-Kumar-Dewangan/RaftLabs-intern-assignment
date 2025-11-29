@@ -74,28 +74,6 @@ A modern, full-featured directory and explorer for public APIs built with Next.j
 
 The project includes **20 high-quality, production-grade APIs** across diverse categories:
 
-**Location:** `/src/data/apis.json`
-
-### Data Structure Example
-\`\`\`json
-{
-  "id": "stripe",
-  "name": "Stripe API",
-  "category": "Payment",
-  "description": "Complete payments platform for internet businesses",
-  "longDescription": "Stripe is a technology company...",
-  "baseUrl": "https://api.stripe.com",
-  "authType": "API Key",
-  "pricing": "Free tier available",
-  "icon": "https://cdn.brandfetch.io/...",
-  "features": ["Payment Processing", "Subscriptions", ...],
-  "useCases": ["E-commerce", "SaaS", ...],
-  "documentation": "https://stripe.com/docs/api",
-  "rateLimit": "100 req/sec",
-  "https": true,
-  "cors": true
-}
-\`\`\`
 
 ### API Categories & Count
 | Category | Count | Examples |
