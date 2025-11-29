@@ -17,12 +17,6 @@ A modern, full-featured directory and explorer for public APIs built with Next.j
 - [Data Generation Process](#data-generation-process)
 - [Design Inspiration](#design-inspiration)
 - [AI Prompt Examples](#ai-prompt-examples)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Performance Optimizations](#performance-optimizations)
-- [Improvements (2-3 Days)](#improvements-2-3-days)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -98,7 +92,7 @@ The project includes **20 high-quality, production-grade APIs** across diverse c
 ### Data Sources
 
 API_dataset :https://github.com/public-apis/public-apis
-## Data Generation Process
+
 
 
 
