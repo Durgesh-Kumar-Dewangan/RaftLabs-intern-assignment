@@ -151,7 +151,7 @@ Prompt:
 "I have a list of 20 public APIs with their details. Create a standardized 
 JSON schema that includes: name, description, base URL, authentication type, 
 pricing, category, features, use cases, documentation link, rate limits, 
-and boolean flags for HTTPS and CORS support. Ensure the schema is 
+and boolean flags for HTTPS  support. Ensure the schema is 
 extensible for future additions. Also provide TypeScript interfaces for 
 type safety."
 
@@ -166,23 +166,12 @@ Result Used:
 
 \`\`\`
 Prompt:
-"Build a search and filter system for an API directory with:
-- Real-time search across name and description
-- Category filter dropdown
-- Pricing filter (Free/Paid/Freemium)
-- CORS support filter toggle
-- Sort options (A-Z, Category, Rating)
-- Display filtered results count
-- Use React hooks for state management
-- Debounce search input for performance
-Include TypeScript types and consider mobile UX."
+"Build a search and filter system for an API directory with real-time search across name and description, Category filter dropdown, Pricing filter (free/paid), sort options (A-Z, category, rating), display filtered results count
 
 Result Used:
 - Custom useSearch hook with debouncing
 - Multi-select filtering with Radix UI Select
 - Real-time results update with useMemo
-- Mobile-responsive filter UI
-- Proper TypeScript interfaces
 \`\`\`
 
 
