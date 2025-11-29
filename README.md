@@ -265,8 +265,8 @@ The easiest way to deploy is with [Vercel](https://vercel.com).
 \`\`\`
 PublicAPIHub/
 ├── src/
-│   ├── data/
-│   │   └── apis.json              # API dataset (20 curated APIs)
+   ├── data/
+   │   └── apis.json              # API dataset (20 curated APIs)
 │   ├── components/
 │   │   ├── api/                   # API-specific components
 │   │   │   ├── ApiCard.tsx
