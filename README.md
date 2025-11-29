@@ -126,7 +126,7 @@ API_dataset :https://github.com/public-apis/public-apis
 
 ## Design Inspiration
 
-### Design Philosophy
+### Design from Gsoc website
 
 **PublicAPIHub** combines modern design principles with developer-first UX:
 
@@ -165,6 +165,7 @@ API_dataset :https://github.com/public-apis/public-apis
 3. **Vercel Documentation** - Modern developer experience
 4. **Dribbble Design Trends** - Smooth animations and interactions
 5. **Material Design 3** - Accessibility and contrast guidelines
+
 
 ## AI Prompt Examples
 
@@ -212,121 +213,4 @@ Result Used:
 - Proper TypeScript interfaces
 \`\`\`
 
-## Getting Started
 
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-\`\`\`bash
-git clone https://github.com/yourusername/PublicAPIHub.git
-cd PublicAPIHub
-\`\`\`
-
-2. **Install dependencies**
-\`\`\`bash
-npm install
-# or
-yarn install
-\`\`\`
-
-3. **Run development server**
-\`\`\`bash
-npm run dev
-# or
-yarn dev
-\`\`\`
-
-4. **Open in browser**
-\`\`\`
-http://localhost:3000
-\`\`\`
-
-### Build for Production
-
-\`\`\`bash
-npm run build
-npm run preview
-\`\`\`
-
-### Deployment to Vercel
-
-\`\`\`bash
-vercel deploy
-\`\`\`
-
-The easiest way to deploy is with [Vercel](https://vercel.com).
-
-## Project Structure
-
-\`\`\`
-PublicAPIHub/
-├── src/
-   ├── data/
-   │   └── apis.json              # API dataset (20 curated APIs)
-│   ├── components/
-│   │   ├── api/                   # API-specific components
-│   │   │   ├── ApiCard.tsx
-│   │   │   ├── ApiCircleIcon.tsx
-│   │   │   └── ApiGrid.tsx
-│   │   ├── layout/                # Layout components
-│   │   │   ├── Navigation.tsx
-│   │   │   ├── ScrollIndicator.tsx
-│   │   │   └── Footer.tsx
-│   │   ├── ui/                    # Radix UI components (40+ total)
-│   │   │   ├── button.tsx
-│   │   │   ├── card.tsx
-│   │   │   ├── dialog.tsx
-│   │   │   └── ... (37+ more)
-│   │   └── search/
-│   │       ├── SearchBox.tsx
-│   │       └── FilterPanel.tsx
-│   ├── lib/
-│   │   ├── utils.ts               # Utility functions
-│   │   └── cn.ts                  # Class name utility
-│   └── hooks/
-│       ├── useSearch.ts           # Search hook
-│       └── useFilter.ts           # Filter hook
-│
-├── nextjs-reference/
-│   ├── app/
-│   │   ├── layout.tsx             # Root layout
-│   │   ├── page.tsx               # Home page
-│   │   ├── apis/
-│   │   │   └── page.tsx           # APIs directory page
-│   │   ├── categories/
-│   │   │   └── page.tsx           # Categories page
-│   │   ├── category/
-│   │   │   └── [slug]/page.tsx    # Dynamic category page
-│   │   ├── api/
-│   │   │   └── [id]/page.tsx      # Dynamic API detail page
-│   │   ├── globals.css            # Global styles & design tokens
-│   │   └── layout.tsx             # App layout
-│   ├── next.config.mjs            # Next.js config
-│   └── tailwind.config.ts         # Tailwind configuration
-│
-├── package.json
-├── tsconfig.json
-├── eslint.config.js
-├── tailwind.config.ts
-└── README.md
-\`\`\`
-
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Built with [Next.js](https://nextjs.org/)
-- Styled with [Tailwind CSS](https://tailwindcss.com/)
-- Components from [Radix UI](https://www.radix-ui.com/) and [shadcn/ui](https://ui.shadcn.com/)
-- Icons by [Lucide React](https://lucide.dev/)
-- Animations powered by [Framer Motion](https://www.framer.com/motion/)
-- Deployed on [Vercel](https://vercel.com/)
-
----
