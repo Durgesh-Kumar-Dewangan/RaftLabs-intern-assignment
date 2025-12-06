@@ -1,5 +1,6 @@
 # RaftLabs-intern-assignment
-# New Working vercel Link:; https://raft-labs-inter-git-755bbb-durgeshkumardewangan0-8854s-projects.vercel.app/
+# New Working vercel Link:
+https://raft-labs-inter-git-755bbb-durgeshkumardewangan0-8854s-projects.vercel.app/
 # PublicAPIHub
 
 A modern, full-featured directory and explorer for public APIs built with Next.js 14, TypeScript, and Tailwind CSS. Discover, browse, and learn about APIs across multiple categories with an intuitive interface powered by static generation and ISR.
